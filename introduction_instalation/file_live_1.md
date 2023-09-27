@@ -45,7 +45,7 @@ We look forward to seeing you at the STM32WBA Workshop live session!
 - Software (PC with **MS Windows 10** operating system):
   - **[STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)** in version 1.13.1
   - **[STM32WBA Cube library](https://www.st.com/en/embedded-software/stm32cubewba.html)** in version 1.1.0 and in version 1.1.1
-  - **[CubeMx .ioc project template](https://github.com/manu19901991/WBA_WS/tree/main)** we will use it during hands-on
+  - **[CubeMx .ioc project template](https://github.com/stm32ws2023/WBA_WS_ioc)** we will use it during hands-on
   - **[Virtual COM port drivers](https://www.st.com/en/development-tools/stsw-stm32102.html)**
   -  any **serial terminal** application (e.g. **[Termite](https://termite.software.informer.com/3.4/)**)
   - ST BLE ToolBox Smartphone Application - this has to be downloaded on your mobile
