@@ -11,6 +11,7 @@ Presentation
 </awarning>
 
 ----
+
 1.code needs to be added in **STM32_WPAN/App/app_ble.c** inside the function App_BLE_Init ~line 293 in **/*USER CODE BEGIN APP_BLE_Init_2*/**
 
 ```c
