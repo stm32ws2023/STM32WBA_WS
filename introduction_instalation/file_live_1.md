@@ -32,7 +32,7 @@ We look forward to seeing you at the STM32WBA Workshop live session!
 
 # Prerequisites
 - Hardware:
-  - **PC with MS Windows 10 operating system and admin rights granted**
+  - **PC with MS Windows 10 operating system (preferred) and admin rights granted**
   - **1 USB A to Micro-B Cable** cable 
   <br>
   ![microUSB cables](./img/uUSB.jpg)
@@ -42,9 +42,9 @@ We look forward to seeing you at the STM32WBA Workshop live session!
   <br>
   ![H5_DK](./img/5.png)
   <br>
-- Software (PC with **MS Windows 10** operating system):
-  - **[STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)** in version 1.13.1
-  - **[STM32WBA Cube library](https://www.st.com/en/embedded-software/stm32cubewba.html)** in version 1.1.0 and in version 1.1.1
+- Software (preferred PC with **MS Windows 10** operating system):
+  - **[STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)** in version 1.13.1 or latest
+  - **[STM32WBA Cube library](https://www.st.com/en/embedded-software/stm32cubewba.html)** in version 1.1.0 or latest
   - **[CubeMx .ioc project template](https://github.com/stm32ws2023/WBA_WS_ioc)** we will use it during hands-on
   - **[Virtual COM port drivers](https://www.st.com/en/development-tools/stsw-stm32102.html)**
   -  any **serial terminal** application (e.g. **[Termite](https://termite.software.informer.com/3.4/)**)
