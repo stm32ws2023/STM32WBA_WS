@@ -211,12 +211,16 @@ Wait for 250 ms
 <br>
 
 <ainfo>
-In case of neither errors nor warnings after this process, STM32CubeIDE and STM32WBA library are installed correctly. Last point - debug session will be verified during first hands on part on the workshop.
+In case of neither errors nor warnings after this process, STM32CubeIDE and STM32WBA library are installed correctly.
 </ainfo>
 
 
 <ainfo>
 ## **Congratulations** You have completed installation part. Now you are fully prepared for the live workshop session. 
+</ainfo>
+
+<ainfo>
+## Slides for the complete Workshop can be downloaded from [here](https://github.com/stm32ws2023/STM32WBA_WS_Slide_deck). 
 </ainfo>
 
 ----
