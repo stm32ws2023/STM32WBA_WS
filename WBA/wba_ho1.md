@@ -31,6 +31,7 @@ Presentation
 2.still in **STM32_WPAN/App/app_ble.c** inside SVCCTL_App_Notification function Search for **/*USER CODE BEGIN EVT_DISCONN_COMPLETE*/**
 
 ```c
+      /* USER CODE BEGIN EVT_DISCONN_COMPLETE */
       tBleStatus status;
       status = aci_gap_set_discoverable(ADV_TYPE, ADV_INTERVAL_MIN,ADV_INTERVAL_MAX,
                                                   CFG_BD_ADDRESS_TYPE,
@@ -39,7 +40,7 @@ Presentation
       if (status != BLE_STATUS_SUCCESS) {
     	  return;
       }
-
+     /* USER CODE END EVT_DISCONN_COMPLETE */
 ```
 
 
