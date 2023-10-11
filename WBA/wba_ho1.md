@@ -1,9 +1,8 @@
 ----!
 Presentation
 ----!
-![Project build](./img/31.gif)
-## CubeMX/STM32CubeIDE .IOC project for the HandsOn1 can be downloaded from [here](https://github.com/stm32ws2023/WBA_WS_ioc/blob/main/Hands-On_WS_WBA52.ioc).
 
+**CubeMX/STM32CubeIDE .IOC project for the HandsOn1 can be downloaded from **[here](https://github.com/stm32ws2023/WBA_WS_ioc/blob/main/Hands-On_WS_WBA52.ioc)**
 
 # Add application code to move to discoverable
 
