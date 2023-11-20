@@ -49,7 +49,7 @@ We look forward to seeing you at the STM32WBA Workshop live session!
   </awarning>
 <br>
 
-
+ ![H5_DK](./img/77.gif)
 
   ![ide_install](./img/6.png)
   - **[STM32WBA Cube library](https://rristm.github.io/tomas_materials_v2/stm32ws2023/STM32WBA_WS/master/file_live_1.md/2)** in version 1.1.0 (**mandatory**) plus latest optional patch (1.1.1)
