@@ -55,6 +55,7 @@ We look forward to seeing you at the STM32WBA Workshop live session!
   - **[STM32WBA Cube library](https://rristm.github.io/tomas_materials_v2/stm32ws2023/STM32WBA_WS/master/file_live_1.md/2)** in version 1.1.0 (**mandatory**) plus latest optional patch (1.1.1)
 
   ![ide_install](./img/6.png)
+  
     - To be downloaded directly from STM32CubeIDE **[see next slide for procedure](https://rristm.github.io/tomas_materials_v2/stm32ws2023/STM32WBA_WS/master/file_live_1.md/2)**
   - **[CubeMx .ioc project template](https://github.com/stm32ws2023/WBA_WS_ioc)** we will use it during hands-on
   - **[Virtual COM port drivers](https://www.st.com/en/development-tools/stsw-stm32102.html)**
