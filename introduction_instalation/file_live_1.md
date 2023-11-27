@@ -119,7 +119,10 @@ Additionally prepared test project can be a base for next hands-on parts during 
 ## **Step1** - project creation and peripherals configuration
  - Run **STM32CubeIDE**
  - Specify workspace location (i.e. `C:\_Work\WBA_ex1`)
+<br>
+- In **window** -> **preferences** -> **STM32Cube**  -> **Firmware Updater** Select ** Manual Check **
 
+  ![Workspace_start2](./img/16.png)
 <br>
 - Start new project using one of the below methods:
   - by selecting `File->New->STM32Project` 
