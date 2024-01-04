@@ -26,7 +26,7 @@ APP_BLE_Procedure_Gap_Peripheral(PROC_GAP_PERIPH_ADVERTISE_START_FAST);
 
 # Add application code to toggle LED from client
 
-code needs to be added in **STM32_WPAN/App/p2p_server_app.c** inside the function P2P_SERVER_Notification() ~line 110 in **/*USER CODE BEGIN Service1Char1_WRITE_NO_RESP_EVT*/**
+code needs to be added in **STM32_WPAN/App/p2p_server_app.c** inside the function P2P_SERVER_Notification() ~line 112 in **/*USER CODE BEGIN Service1Char1_WRITE_NO_RESP_EVT*/**
 
 ```c
 HAL_GPIO_TogglePin(GPIOB, LD2_Pin|LD3_Pin|LD1_Pin);
@@ -34,20 +34,20 @@ HAL_GPIO_TogglePin(GPIOB, LD2_Pin|LD3_Pin|LD1_Pin);
 
 # Add application code to rise an alarm from device to Smartphone
 
-1. code needs to be added in **Core/Inc/app_conf.h** ~line 376  in **/*USER CODE BEGIN CFG_Task_Id_t*/**
+1. code needs to be added in **Core/Inc/app_conf.h** ~line 324  in **/*USER CODE BEGIN CFG_Task_Id_t*/**
 
 ```c
 TASK_BUTTON_1,
 ```
 
-2. in **STM32_WPAN/App/p2p_server_app.c** inside the function P2P_SERVER_APP_Init() ~line 180 add the below code in 
+2. in **STM32_WPAN/App/p2p_server_app.c** inside the function P2P_SERVER_APP_Init() ~line 183 add the below code in 
 **/*USER CODE BEGIN Service1_APP_Init*/**
 
 ```c
 UTIL_SEQ_RegTask( 1U << TASK_BUTTON_1, UTIL_SEQ_RFU, P2P_SERVER_Switch_c_SendNotification);
 ```
 
-3. add the below code in **Core/Src/app_entry.c** ~line 416 inside **/*USER CODE BEGIN FD_WRAP_FUNCTIONS*/** 
+3. add the below code in **Core/Src/app_entry.c** ~line 513 inside **/*USER CODE BEGIN FD_WRAP_FUNCTIONS*/** 
 
 ```c
 void HAL_GPIO_EXTI_Rising_Callback(uint16_t GPIO_Pin)
