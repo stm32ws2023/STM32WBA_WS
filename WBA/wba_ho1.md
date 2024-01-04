@@ -20,17 +20,17 @@ Presentation
                                              ADV_FILTER,
                                              0, 0, 0, 0, 0, 0);
   if (status != BLE_STATUS_SUCCESS) {
-	  LOG_INFO_APP("==>> aci_gap_set_discoverable - fail, result: 0x%02X\n", status);
+	  return;
   }
 
   status = aci_gap_delete_ad_type(AD_TYPE_TX_POWER_LEVEL);
   if (status != BLE_STATUS_SUCCESS) {
-	  LOG_INFO_APP("==>> delete tx power level - fail, result: 0x%02X\n", status);;
+	  return;
   }
 
   status = aci_gap_update_adv_data(sizeof(a_AdvData), (uint8_t*) a_AdvData);
   if (status != BLE_STATUS_SUCCESS) {
-	  LOG_INFO_APP("==>> Start Advertising Failed, result: 0x%02X\n", status);
+	  return;
   }
   /* USER CODE END APP_BLE_Init_2 */
 ```
@@ -44,17 +44,17 @@ Presentation
                                              ADV_FILTER,
                                              0, 0, 0, 0, 0, 0);
   if (status != BLE_STATUS_SUCCESS) {
-	  return;
+	  LOG_INFO_APP("==>> aci_gap_set_discoverable - fail, result: 0x%02X\n", status);
   }
 
   status = aci_gap_delete_ad_type(AD_TYPE_TX_POWER_LEVEL);
   if (status != BLE_STATUS_SUCCESS) {
-	  return;
+	  LOG_INFO_APP("==>> delete tx power level - fail, result: 0x%02X\n", status);
   }
 
   status = aci_gap_update_adv_data(sizeof(a_AdvData), (uint8_t*) a_AdvData);
   if (status != BLE_STATUS_SUCCESS) {
-	  return;
+	   LOG_INFO_APP("==>> Start Advertising Failed, result: 0x%02X\n", status);
   }
      /* USER CODE END EVT_DISCONN_COMPLETE */
 ```
